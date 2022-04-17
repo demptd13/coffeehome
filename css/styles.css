@@ -175,6 +175,11 @@ hr {
     padding-bottom: 28px;
 }
 
+input {
+    outline: none;
+    font-family: inherit;
+}
+
 .footer-input {
     padding-top: 28px;
     height: 100px;
@@ -195,7 +200,6 @@ input[type="email"] {
 }
 
 ::-webkit-input-placeholder {
-    font-family:'Oswald', sans-serif;
     color: #FFFFFF;
 }
 
